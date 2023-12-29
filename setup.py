@@ -1,8 +1,13 @@
+import os
 import re
 from setuptools import setup
 
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
+
+if os.getenv("READTHEDOCS") == "True":
+    requirements.append("sphinxcontrib-napoleon")
+    requirements.append("Pallets-Sphinx-Themes")
 
 
 with open("quartcord/__init__.py") as f:
@@ -22,10 +27,6 @@ with open("README.md") as f:
 extras_require = {
     "docs": [
         "sphinx",
-        "sphinxcontrib_trio",
-        "sphinx-rtd-theme",
-        "sphinxcontrib-napoleon",
-        "Pallets-Sphinx-Themes",
     ],
 }
 
