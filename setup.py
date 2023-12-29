@@ -24,7 +24,8 @@ extras_require = {
         "sphinx",
         "sphinxcontrib_trio",
         "sphinx-rtd-theme",
-        "sphinxcontrib-napoleon" "Pallets-Sphinx-Themes",
+        "sphinxcontrib-napoleon",
+        "Pallets-Sphinx-Themes",
     ],
 }
 
