@@ -1,8 +1,6 @@
 Welcome to ``quartcord``'s documentation!
 =========================================
 
-.. image:: /images/background.jpg
-
 ``quartcord`` is an extension made for Quart which makes implementation of
 Discord's OAuth2 API easier.
 
