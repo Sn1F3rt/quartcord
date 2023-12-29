@@ -32,6 +32,7 @@ extras_require = {
 
 packages = [
     "quartcord",
+    "quartcord.models",
 ]
 
 setup(
