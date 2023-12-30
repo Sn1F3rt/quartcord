@@ -33,7 +33,7 @@ DISCORD_EMBED_BASE_BASE_URL = "https://cdn.discordapp.com/"
 DISCORD_IMAGE_FORMAT = "png"
 DISCORD_ANIMATED_IMAGE_FORMAT = "gif"
 DISCORD_USER_AVATAR_BASE_URL = (
-    DISCORD_IMAGE_BASE_URL + "avatars/{user_id}/{avatar_hash}.{format}?size={size}}"
+    DISCORD_IMAGE_BASE_URL + "avatars/{user_id}/{avatar_hash}.{format}?size={size}"
 )
 DISCORD_DEFAULT_USER_AVATAR_BASE_URL = (
     DISCORD_EMBED_BASE_BASE_URL + "embed/avatars/{index}.png?size={size}"
