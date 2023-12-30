@@ -1,6 +1,6 @@
 # quartcord
 
-[![PyPI](https://img.shields.io/pypi/v/quartcord)](https://pypi.org/project/quartcord/) [![Read the Docs](https://img.shields.io/readthedocs/quartcord)](https://quartcord.readthedocs.io/en/latest/) 
+[![PyPI](https://img.shields.io/pypi/v/quartcord)](https://pypi.org/project/quartcord/) [![Build](https://github.com/Sn1F3rt/quartcord/actions/workflows/build.yml/badge.svg)](https://github.com/Sn1F3rt/quartcord/actions/workflows/build.yml) [![Documentation Status](https://readthedocs.org/projects/quartcord/badge/?version=latest)](https://quartcord.readthedocs.io/en/latest/?badge=latest) 
 
 ## Table of Contents
 
